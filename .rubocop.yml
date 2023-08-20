@@ -1,0 +1,52 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - Gemfile.lock
+
+Naming:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
